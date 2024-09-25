@@ -60,6 +60,12 @@ In the visual numerical graph results the percentage in the group between drugs 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+ There were 3 statistical test ran and each test gave a probability with the results from before with the group of females and their chances of getting aids w/ drugs or placebo. The first test had a probability of .00007686, the second probability is .0001 while the last one is at .00006596. The the statistical differences made between the famale centered group of the drug or placebo be
 
 # Discussion and Conclusion
 
