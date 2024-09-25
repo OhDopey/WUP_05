@@ -47,6 +47,13 @@ The Graph above is a visual graph of females only, it shows that females who too
 
 ### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=triUmp)
+rowPerc(table1)
+colPerc(table1)
+```
+In the visual numerical graph results the percentage in the group between drugs and placebo, that didn't get aids. the percentage is 41%, we can see that the percentage in the none aids to placebo is 60% 
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
